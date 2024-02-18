@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charith Jayashanka</title>
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/28d0af189d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1 class="logo">CHARITH.</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Civil Engineering Undergraduate</p>
+          <h1>Hi, I'm <span>Charith</span> <br />
+          Jayashanka</h1>
+        </div>
+      </div>
+    </div>
+    <!------------------About--------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./images/user1.JPG" alt="Chaga's potrait" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              A self-motivated, enthusiastic, and responsible engineering
+              undergraduate from the University of Moratuwa with proven
+              organizational skills. A friendly, dedicated, and adaptable team
+              player who can quickly learn new things through self-learning, I
+              am seeking an opportunity to contribute my knowledge and skills to
+              the success of the organization while enhancing my abilities as a
+              Civil Engineer.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('education')">
+                Education
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="education">
+              <ul>
+                <li>
+                  <span>2020 - Present</span><br />BSc. Engineering (Hons) at
+                  University Of Moratuwa
+                </li>
+                <li><span>2016 - 2018</span><br />Richmond College</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Jan 2023 - June 2023</span><br />Civil Engineering Intern at Sri Lanka Ports Authority(Colombo Ports) 
+                </li>
+                <li>
+                  <span>27 Nov 2023 - 9 Dec 2023</span><br />Survey Camp at Kothmale International Training Institute of Irrigation and Water Management (KITI)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------Skills---------------- -->
+    <div id="skills">
+      <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="skills-list">
+          <div>
+            <i class="fa-brands fa-uncharted"></i>
+            <h2>SOFTWARE</h2>
+            <ul>
+              <li>Delft3D</li>
+              <li>Civil3D</li>
+              <li>ArcGIS</li>
+              <li>SAP2000</li>
+              <li>ETABS</li>
+              <li>Lumion</li>
+            </ul>
+          </div>
+          <div>
+            <i class="fa-solid fa-computer"></i>
+            <h2>PROGRAMING LANGUAGE</h2>
+            <ul>
+              <li>Python</li>
+              <li>MATLAB</li>
+              <li>Arduino</li>
+              <li>MySQL(DBMS)</li>
+              <li>Java</li>
+            </ul>
+          </div>
+          <div>
+            <i class="fa-solid fa-people-group"></i>
+            <h2>SOFT SKILLS</h2>
+            <ul>
+              <li>Leadership</li>
+              <li>Time Management</li>
+              <li>Analytical Skills</li>
+              <li>Solution Oriented</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------Projects------------------- -->
+
+    <div id="projects">
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./images/dashboard.webp" alt="Dashboard Image" />
+            <div class="layer">
+              <h3>Nearshore Wave Energy Resource Assessment for 
+                  Southern Coast of Sri Lanka</h3>
+              <p>
+                Conducted an in-depth study using high-resolution numerical 
+                modeling, incorporating data derived from previous research.
+                Employed Delft3D for the development of a sophisticated 
+                numerical model, while utilizing Python and MATLAB for
+                detailed analysis.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/personal.jpeg" alt="Dashboard Image" />
+            <div class="layer">
+              <h3>Commercial Development Project 
+                  at Mathugama</h3>
+              <p>
+                Demonstrated strategic decision-making through a comprehensive SWOT analysis and Feasibility study, 
+                resulting in the selection of a Rubber Factory and Research Building as the most suitable alternative. 
+                Executed social and traffic surveys to inform the architectural design, ensuring community alignment 
+                and traffic optimization.Leveraged expertise in architectural design to create a realistic model, 
+                integrating sustainable practices to reduce environmental impact. Applied advanced structural design 
+                principles and conducted precise load calculations.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------Contact------------------------ -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>charithjayashanka99@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+94 712895170</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/charith-jayashanka/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/CharithJayashanka"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.facebook.com/charith.aljayasanka/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/smartjaya1999/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+            <a href="./My_CV.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Charith 2023 | All Rights Reserved.</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxH2S2CQ1O_P36_hZ9eOYHeRIXHTVpffRnG31XdZ9G78DvIOmcQQ4v7MV6-SUwPLouW/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message Sent Successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
